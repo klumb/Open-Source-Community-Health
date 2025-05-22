@@ -1,7 +1,9 @@
 import requests
 
 url = 'https://api.github.com/graphql'
-api_token = "" # Replace with your actual token
+
+#Uncomment api_token and add yours
+#api_token = "" # Replace with your actual token
 query = '''{
 repository(owner: "kubernetes", name: "kubernetes"){
     pullRequests(first: 100) {

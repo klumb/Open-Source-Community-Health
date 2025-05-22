@@ -14,7 +14,7 @@ library(dplyr)
 #######library(data.table)
 
 # Create Token
-
+# Uncomment the token and add yours
 #token <- '' # write your github token
 cli <- GraphqlClient$new(
   url = "https://api.github.com/graphql",
